@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pal_IV"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="80"
+        android:id="@+id/tvPlayerPosition"
+        android:text="@string/plc_requests_position"
+        style="@style/Base.TextAppearance.AppCompat.Large"
+        android:textAlignment="center"
+        android:textColor="@color/pal_III"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="20">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/tvPlayerName"
+            style="@style/Base.TextAppearance.AppCompat.Large"
+            android:text="@string/plc_requests_players"
+            android:textColor="@color/pal_III"
+            android:layout_weight="40"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="60">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="15"
+                style="@style/Base.TextAppearance.AppCompat.Small"
+                android:id="@+id/tvPlayerRank"
+                android:textColor="@color/pal_II"
+                android:text="@string/plc_requests_rank" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_weight="25"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:id="@+id/ivPVMRole"
+                    android:src="@drawable/role_pvm"
+                    android:layout_weight="1"
+                    android:contentDescription="PVM"/>
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:id="@+id/ivPVPRole"
+                    android:src="@drawable/role_non_pvp"
+                    android:layout_weight="1"
+                    android:contentDescription="PVP"/>
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:id="@+id/ivHidderRole"
+                    android:src="@drawable/role_hidder"
+                    android:layout_weight="1"
+                    android:contentDescription="Hidder"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

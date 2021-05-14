@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">TMGUtils</string>
+    <!-- Main layout -->
+    <string name="btn_soptable">Show SOPs</string>
+    <string name="btn_my_requests">My requests</string>
+    <string name="btn_priority">Manage priorities</string>
+    <string name="btn_account">Manage account</string>
+    <string name="btn_champ">Chaaamp!</string>
+    <!-- Login layout -->
+    <string name="login_username_label">Username:</string>
+    <string name="login_password_label">Password:</string>
+    <string name="login_button_label">Login</string>
+    <!-- Register layout -->
+    <string name="register_button_label">Register</string>
+    <string name="register_repeat_password_label">Repeat password:</string>
+    <string name="register_code_label">Code:</string>
+    <string name="register_alias_label">Alias:</string>
+    <!-- SopList layout -->
+    <string name="sop_value_label">Value</string>
+    <string name="sop_skill_label">Skill</string>
+    <string name="sop_days_label">Days</string>
+    <!-- MyAccount layout -->
+    <string name="myacc_rank_label">Rank:</string>
+    <string name="myacc_role_label">My roles</string>
+    <string name="myacc_myaccount_label">Profile</string>
+    <!-- Requests layout -->
+    <string name="myrequests_title_label">My Requests</string>
+    <!-- Champ Alert layout -->
+    <string name="champ_champ_label">Champion:</string>
+    <string name="champ_spawn_label">Spawn:</string>
+    <string name="champ_whose_label">Belongs to:</string>
+    <string name="champ_raidedby_label">Current raiders:</string>
+    <string name="champ_where_label">Location:</string>
+    <string name="champ_report_btn">Chaaamp!</string>
+    <string name="champ_ellipsis">…</string>
+    <string name="champ_spawn_1">1</string>
+    <string name="champ_spawn_2">2</string>
+    <string name="champ_spawn_3">3</string>
+    <string name="champ_spawn_4">4</string>
+    <string name="champ_spawn_out">Out</string>
+    <string name="champ_faction_com">CoM</string>
+    <string name="champ_faction_min">MiN</string>
+    <string name="champ_faction_sl">SL</string>
+    <string name="champ_faction_tb">TB</string>
+    <!-- Placeholders -->
+    <string name="plc_requests_sop">120 Eval Intelligence</string>
+    <string name="plc_requests_players">Bruce Dickinson</string>
+    <string name="plc_requests_position">1</string>
+    <string name="plc_requests_rank">Emissary</string>
+    <!-- Suggerimenti -->
+    <string name="hint_register_username">Andonio</string>
+    <string name="hint_register_alias">IG/TS/Discord/Telegram nickname</string>
+    <!-- Errori -->
+    <string name="error_empty_fields">All the fields must be filled.</string>
+    <string name="error_login_unsuccessful">Unsuccessful login.</string>
+    <string name="error_collectin_data">There was an error collecting data.</string>
+    <string name="error_field_empty">%1$s must not be empty.</string>
+    <string name="error_field_wrong_char">Wrong characters in %1$s field.</string>
+    <string name="error_password_not_match">Passwords do not match.</string>
+    <string name="error_registration_faulty">There was an error. Make sure you entered a valid code.</string>
+    <string name="error_field_too_short">%1$s field is too short (minimum: %2$d).</string>
+    <string name="error_field_too_long">%1$s field is too short (maximum: %2$d).</string>
+    <string name="error_wrong_code_length">Code length must be %1$d digits.</string>
+    <string name="error_rank_too_low">You must be at least %1$s to do that.</string>
+    <string name="error_general_error">Generic Error.</string>
+    <!-- Avvisi -->
+    <string name="notif_double_back_exit">Press back again to exit.</string>
+    <string name="notif_double_back_logout">Press back again to logout.</string>
+    <string name="notif_long_press_remove">Long press to remove.</string>
+    <string name="notif_long_press_add">Long press to add.</string>
+    <string name="notif_now_may_login">Now you may login.</string>
+    <string name="notif_no_requests">There isn\'t any request for this Power Scroll.</string>
+    <!-- Progress Dialog Messages -->
+    <string name="prog_logging_in">Logging in…</string>
+    <string name="prog_collecting_sops">Loading power scrolls data…</string>
+    <string name="prog_myrequests_update">Saving updates to your requests…</string>
+    <string name="prog_registrating">Sending registration request…</string>
+    <string name="prog_roles_update">Saving updates to your roles…</string>
+    <string name="prog_collecting_requests">Looking for requests…</string>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0C6291</color>
+    <color name="colorPrimaryDark">#7E1946</color>
+    <color name="colorAccent">#0C6291</color>
+    <color name="bgColor">#111</color>
+    <!-- Absolute colors -->
+    <color name="red">#FF0000</color>
+    <!-- Palette -->
+	<color name="pal_I">#A63446</color>
+    <color name="pal_II">#96fbfef9</color>
+    <color name="pal_III">#0C6291</color>
+    <color name="pal_IV">#000004</color>
+    <color name="pal_V">#7E1946</color>
+    <color name="pal_IV_alt">#161616</color>
+</resources>

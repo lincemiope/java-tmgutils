@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">TMGUtils</string>
+    <!-- Main layout -->
+    <string name="btn_soptable">Lista SOP</string>
+    <string name="btn_my_requests">Richieste</string>
+    <string name="btn_priority">Gestione priorità</string>
+    <string name="btn_account">Gestione profilo</string>
+    <string name="btn_champ">Chaaamp!</string>
+    <!-- Login layout -->
+    <string name="login_username_label">Nome utente:</string>
+    <string name="login_password_label">Password:</string>
+    <string name="login_button_label">Accedi</string>
+    <!-- Register layout -->
+    <string name="register_button_label">Registrati</string>
+    <string name="register_repeat_password_label">Ripeti password:</string>
+    <string name="register_code_label">Codice:</string>
+    <string name="register_alias_label">Alias:</string>
+    <!-- SopList layout -->
+    <string name="sop_value_label">Valore</string>
+    <string name="sop_skill_label">Skill</string>
+    <string name="sop_days_label">Giorni</string>
+    <!-- MyAccount layout -->
+    <string name="myacc_rank_label">Grado:</string>
+    <string name="myacc_role_label">I miei ruoli</string>
+    <string name="myacc_myaccount_label">Profilo</string>
+    <!-- Requests layout -->
+    <string name="myrequests_title_label">Le mie richieste</string>
+    <!-- Champ Alert layout -->
+    <string name="champ_champ_label">Champion:</string>
+    <string name="champ_spawn_label">Spawn:</string>
+    <string name="champ_whose_label">Di:</string>
+    <string name="champ_raidedby_label">Chi lo sta raidando:</string>
+    <string name="champ_where_label">Dove:</string>
+    <string name="champ_report_btn">Chaaamp!</string>
+    <string name="champ_ellipsis">…</string>
+    <string name="champ_spawn_1">1</string>
+    <string name="champ_spawn_2">2</string>
+    <string name="champ_spawn_3">3</string>
+    <string name="champ_spawn_4">4</string>
+    <string name="champ_spawn_out">Fuori</string>
+    <string name="champ_faction_com">CoM</string>
+    <string name="champ_faction_min">MiN</string>
+    <string name="champ_faction_sl">SL</string>
+    <string name="champ_faction_tb">TB</string>
+    <!-- Placeholders -->
+    <string name="plc_requests_sop">120 Eval Intelligence</string>
+    <string name="plc_requests_players">Bruce Dickinson</string>
+    <string name="plc_requests_position">1</string>
+    <string name="plc_requests_rank">Emissary</string>
+    <!-- Suggerimenti -->
+    <string name="hint_register_username">Andonio</string>
+    <string name="hint_register_alias">Nick in game/TS/Discord/Telegram</string>
+    <!-- Errori -->
+    <string name="error_empty_fields">Tutti i campi vanno riempiti.</string>
+    <string name="error_login_unsuccessful">Non è stato possibile accedere.</string>
+    <string name="error_collectin_data">Si è verificato un errore nella raccolta dei dati.</string>
+    <string name="error_field_empty">%1$s non può essere vuoto.</string>
+    <string name="error_field_wrong_char">Caratteri non validi nel campo %1$s.</string>
+    <string name="error_password_not_match">Passwords do not match.</string>
+    <string name="error_registration_faulty">Registrazione senza successo, assicurati di aver inserito un codice valido.</string>
+    <string name="error_field_too_short">Il campo %1$s è troppo corto (minimo: %2$d).</string>
+    <string name="error_field_too_long">Il campo %1$s è troppo lungo (massimo: %2$d).</string>
+    <string name="error_wrong_code_length">Il codice deve essere di %1$d cifre.</string>
+    <string name="error_rank_too_low">Devi essere almeno %1$s per questa operazione.</string>
+    <string name="error_general_error">Generic Error.</string>
+    <!-- Avvisi -->
+    <string name="notif_double_back_exit">Premi indietro per chiudere.</string>
+    <string name="notif_double_back_logout">Premi indietro per uscire.</string>
+    <string name="notif_long_press_remove">Tieni premuto per rimuovere.</string>
+    <string name="notif_long_press_add">Tieni premuto per aggiungere.</string>
+    <string name="notif_now_may_login">Ora puoi accedere.</string>
+    <string name="notif_no_requests">Non ci sono richieste per questa SOP.</string>
+    <!-- Progress Dialog Messages -->
+    <string name="prog_logging_in">Accesso in corso…</string>
+    <string name="prog_collecting_sops">Caricamento sop in corso…</string>
+    <string name="prog_myrequests_update">Salvataggio modifiche…</string>
+    <string name="prog_registrating">Registrazione in corso…</string>
+    <string name="prog_roles_update">Salvataggio modifiche…</string>
+    <string name="prog_collecting_requests">Controllo della presenza di richieste…</string>
+</resources>

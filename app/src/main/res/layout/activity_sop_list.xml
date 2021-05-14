@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    tools:context="com.uodreams.tmgutils.SopListActivity"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin">
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="20"
+            android:text="@string/sop_value_label"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:background="@drawable/button_behavior"
+            android:textColor="@color/pal_II"
+            android:onClick="btnValue_Click"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="12"
+            android:text="@string/sop_skill_label"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:textColor="@color/pal_II"
+            android:onClick="btnSkill_Click"
+            android:background="@drawable/button_behavior"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="20"
+            android:text="@string/sop_days_label"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:background="@drawable/button_behavior"
+            android:textColor="@color/pal_II"
+            android:onClick="btnDays_Click"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp">
+        <ListView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/lvSopList"
+            android:background="@color/pal_V"/>
+    </LinearLayout>
+</LinearLayout>
+
